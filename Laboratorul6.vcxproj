@@ -139,11 +139,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="repo.h" />
+    <ClInclude Include="repofile.h" />
+    <ClInclude Include="service.h" />
+    <ClInclude Include="teste.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="zbor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="repo.cpp" />
+    <ClCompile Include="service.cpp" />
+    <ClCompile Include="teste.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="zbor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

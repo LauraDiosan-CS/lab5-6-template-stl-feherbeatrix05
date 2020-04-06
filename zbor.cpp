@@ -20,7 +20,6 @@ Zbor::Zbor(char* nume, int nrZbor, int nrLoc) {
 }
 
 Zbor::Zbor(const Zbor& z) {
-	cout << "copy constructor" << endl;
 	this->nume = new char[strlen(z.nume) + 1];
 	strcpy_s(this->nume, 1 + strlen(z.nume), z.nume);
 	this->nrZbor = z.nrZbor;
@@ -30,7 +29,7 @@ Zbor::Zbor(const Zbor& z) {
 
 Zbor::~Zbor() {
 	if (this->nume) {
-		delete[] this->nume;
+		//delete[] this->nume;
 		this->nume = NULL;
 	}
 }
